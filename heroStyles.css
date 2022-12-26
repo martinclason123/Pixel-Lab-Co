@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+section {
+  max-width: 1920px;
+  margin: 0 auto;
+  font-size: 0.521vw;
+}
+
+.topNav {
+  max-width: 1600px;
+  margin: 0 auto;
+  font-size: 0.521vw;
+}
+.logo {
+  width: 15em;
+  margin-bottom: 3em;
+  margin-left: 2em;
+}
+
+.topNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topLinks {
+  display: flex;
+  list-style: none;
+  gap: 2em;
+  font-size: 2.8em;
+}
+
+.topCTA {
+  background: #f26c77;
+  color: white;
+  border: transparent;
+  padding: 0.5em 1.5em;
+  border-radius: 3em;
+  font-weight: bold;
+  font-size: 2em;
+  margin-right: 2em;
+}
+.hero {
+  position: relative;
+}
+.floatingImages {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.copy {
+  position: absolute;
+  top: 31%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  text-align: center;
+  padding: 1em 15em 3em 15em;
+}
+
+.ctaIsland {
+  position: absolute;
+  top: 67%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  text-align: center;
+  padding: 5em;
+  border-radius: 3em;
+}
+
+.islandCTA {
+  background: #f26c77;
+  color: white;
+  border: transparent;
+  padding: 0.5em 1.5em;
+  border-radius: 3em;
+  font-weight: bold;
+  font-size: 2em;
+  margin: 0.5em;
+  cursor: pointer;
+}
+
+.alternate {
+  background: transparent;
+  color: #f26c77;
+  border: 2px solid #f26c77;
+}
+.copy h1 {
+  font-size: 10.8em;
+  font-family: minion-pro, serif;
+  font-weight: normal;
+  line-height: 1;
+}
+
+.copy p {
+  font-size: 3.6em;
+  font-family: minion-pro, serif;
+}
+
+@media (max-width: 640px) {
+  section,
+  .topNav {
+    font-size: 1.563vw;
+  }
+}
+
+@media (min-width: 1921px) {
+  section,
+  .topNav {
+    font-size: 10px;
+  }
+}

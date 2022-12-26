@@ -1,0 +1,162 @@
+.square {
+  position: absolute;
+  transition: all 100ms ease;
+}
+.ts1 {
+  top: 16em;
+  left: 61em;
+  width: 8em;
+}
+
+.square:hover {
+  transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+  -moz-transform: scale(1.1, 1.1);
+}
+
+.extra:hover {
+  transform: scale(1.2, 1.2);
+  -webkit-transform: scale(1.2, 1.2);
+  -moz-transform: scale(1.2, 1.2);
+}
+
+.r1c1 {
+  width: 10em;
+  top: 0em;
+  left: 0em;
+}
+
+.r1c2 {
+  width: 8em;
+  top: 0em;
+  left: 9.5em;
+}
+
+.r1c3 {
+  width: 9em;
+  top: 0em;
+  left: 17.5em;
+}
+
+.r1c4 {
+  width: 9.5em;
+  top: 0em;
+  left: 26.3em;
+}
+
+.r1c5 {
+  width: 9em;
+  top: 0em;
+  left: 35em;
+}
+
+.r1c6 {
+  width: 9em;
+  top: 0em;
+  left: 43.5em;
+}
+
+.r1c7 {
+  width: 9em;
+  top: 1.5em;
+  left: 52em;
+}
+
+.r1c8 {
+  width: 9em;
+  top: 0em;
+  left: 60em;
+}
+
+.r1c9 {
+  width: 8em;
+  top: 0em;
+  left: 69em;
+}
+
+.r1c10 {
+  width: 8em;
+  top: 1em;
+  left: 78em;
+}
+
+.r1c11 {
+  width: 8em;
+  top: 0em;
+  left: 86em;
+}
+.r1c12 {
+  width: 8em;
+  top: 1em;
+  left: 95em;
+}
+
+.r1c13 {
+  width: 8em;
+  top: 0em;
+  left: 104em;
+}
+.r1c14 {
+  width: 9em;
+  top: 0em;
+  left: 112em;
+}
+
+.r1c15 {
+  width: 9em;
+  top: 0em;
+  left: 121em;
+}
+
+.r1c16 {
+  width: 9em;
+  top: 0em;
+  left: 130em;
+}
+.r1c17 {
+  width: 9.5em;
+  top: 0em;
+  left: 138em;
+}
+
+.r1c18 {
+  width: 9em;
+  top: 0em;
+  left: 147em;
+}
+
+.r1c19 {
+  width: 6.5em;
+  top: 0em;
+  left: 155em;
+}
+
+.r1c20 {
+  width: 3em;
+  top: 0em;
+  left: 162em;
+}
+
+.r1c21 {
+  width: 8em;
+  top: 0em;
+  left: 165em;
+}
+
+.r1c22 {
+  width: 8em;
+  top: 0em;
+  left: 165em;
+}
+
+.r1c23 {
+  width: 9em;
+  top: 0em;
+  left: 173em;
+}
+
+.r1c24 {
+  width: 9em;
+  top: 0em;
+  left: 182em;
+}
