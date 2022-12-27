@@ -222,24 +222,18 @@
     </section>
   </body>
   <script>
-    // const floatingImages = document.querySelectorAll(".square");
-    // console.log(floatingImages.length);
-    // /* Write a function that fires every second and returns a random whole number between 0 and 61 */
-    // var interval = setInterval(function () {
-    //   var randomNumber = Math.floor(Math.random() * floatingImages.length - 1);
-    //   let photo = floatingImages[randomNumber];
+    const floatingImages = document.querySelectorAll(".square");
+    console.log(floatingImages.length);
+    /* Write a function that fires every second and returns a random whole number between 0 and 61 */
+    var interval = setInterval(function () {
+      var randomNumber = Math.floor(Math.random() * floatingImages.length - 1);
+      let photo = floatingImages[randomNumber];
 
-    //   console.log(photo.clientWidth);
-    //   console.log(photo.clientHeight);
-    //   let newHeight = photo.clientHeight + 20 + "px";
-    //   let newWidth = photo.clientWidth + 20 + "px";
+      photo.classList.add("randomResizeGrow");
 
-    //   console.log(newHeight);
-    //   console.log(newWidth);
-    //   photo.style.height = newHeight;
-    //   photo.style.width = newWidth;
-
-    //   setTimeout(function () {}, 1000);
-    // }, 1000);
+      setTimeout(function () {
+        photo.classList.remove("randomResizeGrow");
+      }, 1000);
+    }, 100);
   </script>
 </html>

@@ -916,6 +916,12 @@
   top: 56.25em;
   left: 181.5em;
 }
+.randomResizeGrow {
+  transform: scale(1.2, 1.2);
+  -webkit-transform: scale(1.2, 1.2);
+  -moz-transform: scale(1.2, 1.2);
+  transition: all 1000ms ease;
+}
 /* .randomResizeGrow {
   width: calc(11em);
 
