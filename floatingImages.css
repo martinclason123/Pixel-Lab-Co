@@ -1,6 +1,6 @@
 .square {
   position: absolute;
-  transition: all 100ms ease-in;
+  transition: all 1000ms ease;
 }
 .ts1 {
   top: 16em;
@@ -9,9 +9,10 @@
 }
 
 .square:hover {
-  transform: scale(1.1, 1.1);
-  -webkit-transform: scale(1.1, 1.1);
-  -moz-transform: scale(1.1, 1.1);
+  transform: scale(1.2, 1.2);
+  -webkit-transform: scale(1.2, 1.2);
+  -moz-transform: scale(1.2, 1.2);
+  transition: all 100ms ease;
 }
 
 .extra:hover {
@@ -897,7 +898,7 @@
 }
 .r8c19 {
   width: 11em;
-  top: 56.25em;
+  top: 56em;
   left: 155.5em;
 }
 .r8c20 {
