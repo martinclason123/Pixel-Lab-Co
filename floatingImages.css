@@ -161,6 +161,8 @@
   left: 182em;
 }
 
+/* ROW 2 */
+
 .r2c1 {
   width: 8em;
   top: 8em;
@@ -195,6 +197,98 @@
   top: 8.5em;
   left: 43em;
 }
+.r2c7 {
+  width: 9em;
+  top: 8.5em;
+  left: 52em;
+}
+.r2c8 {
+  width: 8em;
+  top: 8em;
+  left: 62em;
+}
+
+.r2c9 {
+  width: 8em;
+  top: 8em;
+  left: 69em;
+}
+
+.r2c10 {
+  width: 9em;
+  top: 7em;
+  left: 78em;
+}
+
+.r2c11 {
+  width: 9em;
+  top: 7em;
+  left: 85em;
+}
+
+.r2c12 {
+  width: 9em;
+  top: 7em;
+  left: 94em;
+}
+.r2c13 {
+  width: 9em;
+  top: 7em;
+  left: 102.25em;
+}
+.r2c14 {
+  width: 9em;
+  top: 8em;
+  left: 111em;
+}
+.r2c15 {
+  width: 9em;
+  top: 8.5em;
+  left: 120em;
+}
+.r2c16 {
+  width: 9em;
+  top: 8.5em;
+  left: 129em;
+}
+.r2c17 {
+  width: 9em;
+  top: 7.5em;
+  left: 138em;
+}
+
+.r2c18 {
+  width: 9em;
+  top: 7.5em;
+  left: 146em;
+}
+.r2c19 {
+  width: 9em;
+  top: 7.5em;
+  left: 155em;
+}
+.r2c20 {
+  width: 9em;
+  top: 8.5em;
+  left: 164em;
+}
+.r2c21 {
+  width: 9em;
+  top: 8.5em;
+  left: 173em;
+}
+.r2c22 {
+  width: 9em;
+  top: 8.5em;
+  left: 181em;
+}
+.r2c23 {
+  width: 1.5em;
+  top: 7.5em;
+  left: 190em;
+}
+
+/* ROW 3 */
 
 .r3c1 {
   width: 8em;
@@ -231,6 +325,8 @@
   top: 17em;
   left: 45em;
 }
+
+/* ROW 4 */
 
 .r4c1 {
   width: 10em;
@@ -374,7 +470,31 @@
   top: 57.75em;
   left: 0.5em;
 }
-
+.r8c2 {
+  width: 9em;
+  top: 57.75em;
+  left: 10.5em;
+}
+.r8c3 {
+  width: 9em;
+  top: 57.25em;
+  left: 17.5em;
+}
+.r8c4 {
+  width: 9em;
+  top: 57.25em;
+  left: 26.5em;
+}
+.r8c5 {
+  width: 9em;
+  top: 57.25em;
+  left: 34.5em;
+}
+.r8c6 {
+  width: 8em;
+  top: 57.25em;
+  left: 43.5em;
+}
 /* .randomResizeGrow {
   width: calc(11em);
 
