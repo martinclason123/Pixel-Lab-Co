@@ -191,7 +191,199 @@
 }
 
 .r2c6 {
+  width: 6em;
+  top: 8.5em;
+  left: 43em;
+}
+
+.r3c1 {
+  width: 8em;
+  top: 17em;
+  left: 1.5em;
+}
+
+.r3c2 {
   width: 9em;
-  top: 8em;
+  top: 17em;
+  left: 9em;
+}
+
+.r3c3 {
+  width: 9em;
+  top: 16em;
+  left: 18em;
+}
+
+.r3c4 {
+  width: 7em;
+  top: 17em;
+  left: 28em;
+}
+
+.r3c5 {
+  width: 9em;
+  top: 16em;
+  left: 35em;
+}
+
+.r3c6 {
+  width: 8em;
+  top: 17em;
+  left: 45em;
+}
+
+.r4c1 {
+  width: 10em;
+  top: 25em;
+  left: 0.5em;
+}
+.r4c2 {
+  width: 9em;
+  top: 25em;
+  left: 9.5em;
+}
+
+.r4c3 {
+  width: 7em;
+  top: 26em;
+  left: 19.5em;
+}
+
+.r4c4 {
+  width: 7em;
+  top: 25em;
+  left: 27.5em;
+}
+
+.r4c5 {
+  width: 9em;
+  top: 25em;
+  left: 35em;
+}
+.r4c6 {
+  width: 9em;
+  top: 24.5em;
+  left: 43.5em;
+}
+
+.r5c1 {
+  width: 9em;
+  top: 32.5em;
+  left: 0.5em;
+}
+
+.r5c2 {
+  width: 9em;
+  top: 32.5em;
+  left: 8.5em;
+}
+
+.r5c3 {
+  width: 9em;
+  top: 32.5em;
+  left: 17.5em;
+}
+
+.r5c4 {
+  width: 9em;
+  top: 32.5em;
+  left: 26.5em;
+}
+
+.r5c5 {
+  width: 9em;
+  top: 32.5em;
   left: 34.5em;
 }
+
+.r5c6 {
+  width: 9em;
+  top: 32.5em;
+  left: 43.5em;
+}
+
+.r6c1 {
+  width: 9em;
+  top: 41.5em;
+  left: 0.5em;
+}
+
+.r6c2 {
+  width: 9em;
+  top: 41.5em;
+  left: 8.5em;
+}
+
+.r6c3 {
+  width: 9em;
+  top: 41.5em;
+  left: 17.5em;
+}
+
+.r6c4 {
+  width: 9em;
+  top: 41.5em;
+  left: 26.5em;
+}
+
+.r6c5 {
+  width: 9em;
+  top: 40.5em;
+  left: 34.5em;
+}
+.r6c6 {
+  width: 9em;
+  top: 41.5em;
+  left: 43.5em;
+}
+.r7c1 {
+  width: 9em;
+  top: 50.5em;
+  left: 1.5em;
+}
+.r7c2 {
+  width: 9em;
+  top: 50.5em;
+  left: 8.5em;
+}
+
+.r7c3 {
+  width: 9em;
+  top: 50em;
+  left: 17em;
+}
+
+.r7c4 {
+  width: 9em;
+  top: 50em;
+  left: 26em;
+}
+.r7c5 {
+  width: 9em;
+  top: 48.75em;
+  left: 35em;
+}
+.r7c6 {
+  width: 9em;
+  top: 48.75em;
+  left: 43.5em;
+}
+
+.r8c1 {
+  width: 9em;
+  top: 57.75em;
+  left: 0.5em;
+}
+
+/* .randomResizeGrow {
+  width: calc(11em);
+
+  transition: all 1s ease;
+} */
+
+/* .randomResizeShrink {
+  transform: scale(9, 9);
+  -webkit-transform: scale(0.9, 0.9);
+  -moz-transform: scale(0.9, 0.9);
+  transition: all 1s ease;
+} */
