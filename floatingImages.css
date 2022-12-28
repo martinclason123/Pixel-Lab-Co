@@ -580,7 +580,7 @@
 .r5c18 {
   width: 4em;
   top: 32.5em;
-  left: 188.5em;
+  left: 187.5em;
 }
 
 /* ROW 6 */
@@ -682,7 +682,7 @@
 .r6c19 {
   width: 4em;
   top: 40.5em;
-  left: 188.5em;
+  left: 187.5em;
 }
 
 /* ROW 7 */
@@ -913,7 +913,7 @@
 }
 .r8c22 {
   width: 9em;
-  top: 56.25em;
+  top: 56em;
   left: 181.5em;
 }
 .randomResizeGrow {
@@ -922,6 +922,15 @@
   -moz-transform: scale(1.2, 1.2);
   transition: all 1000ms ease;
 }
+
+@media (max-width: 640px) {
+  .randomResizeGrow {
+    transform: scale(1.4, 1.4);
+    -webkit-transform: scale(1.4, 1.4);
+    -moz-transform: scale(1.4, 1.4);
+  }
+}
+
 /* .randomResizeGrow {
   width: calc(11em);
 

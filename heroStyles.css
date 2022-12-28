@@ -89,7 +89,9 @@ section {
   margin: 0.5em;
   cursor: pointer;
 }
-
+.ctaIsland--mobile {
+  display: none;
+}
 .alternate {
   background: transparent;
   color: #f26c77;
@@ -107,13 +109,57 @@ section {
   font-family: minion-pro, serif;
 }
 
+.mobileNav {
+  width: 8em;
+  padding: 4em;
+  margin-left: auto;
+}
+
 @media (max-width: 640px) {
+  /* section,
+  .topNav {
+    font-size: 1.563vw;
+  } */
   section,
   .topNav {
     font-size: 1.563vw;
   }
+  .copy {
+    width: 100%;
+    top: 40%;
+    padding: 8em 0;
+  }
+  .copy h1 {
+    font-size: 9.8em;
+  }
+  .copy p {
+    padding: 0.1em;
+  }
+
+  .lg-only {
+    display: none;
+  }
+  .ctaIsland {
+    top: 76%;
+    background: transparent;
+    width: 100%;
+  }
+  .islandCTA {
+    background: #fff;
+    color: black;
+    border: transparent;
+    font-family: minion-pro, serif;
+    font-size: 3em;
+    border-radius: 0px;
+    font-weight: normal;
+  }
 }
 
+@media (min-width: 641px) {
+  .sm-only {
+    display: none;
+  }
+}
 @media (min-width: 1921px) {
   section,
   .topNav {
