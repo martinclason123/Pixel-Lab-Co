@@ -4,13 +4,17 @@
   flex-direction: column;
   text-align: left;
   top: 46%;
-  gap: 3.5em;
+
   left: 52%;
 }
 
 .design .copy p {
   margin-left: 3em;
   margin-top: 0.75em;
+}
+
+.design .copy h1 {
+  font-size: 14.8em;
 }
 @media (max-width: 640px) {
   .design .copy {
@@ -30,5 +34,8 @@
   .design .copy p {
     font-size: 3.2em;
     margin: 0;
+    position: absolute;
+    top: 12em;
+    right: 6em;
   }
 }
