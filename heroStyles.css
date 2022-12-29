@@ -10,6 +10,7 @@ section {
   max-width: 1920px;
   margin: 0 auto;
   font-size: 0.521vw;
+  position: relative;
 }
 
 .topNav {
