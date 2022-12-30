@@ -1,0 +1,35 @@
+.refresh .copy {
+  background: transparent;
+  width: 100%;
+  height: 100%;
+}
+.refresh .copy h1 {
+  position: absolute;
+  right: 34.5%;
+  bottom: 52%;
+  font-size: 14.8em;
+}
+
+.refresh .copy p {
+  position: absolute;
+  width: 10em;
+  text-align: right;
+  top: 49%;
+  right: 31%;
+}
+
+@media (max-width: 640px) {
+  .refresh .copy h1 {
+    position: absolute;
+    right: 8.5%;
+    bottom: 53%;
+    font-size: 14.8em;
+  }
+  .refresh .copy p {
+    position: absolute;
+    width: 9.2em;
+    text-align: right;
+    top: 49%;
+    right: 9%;
+  }
+}

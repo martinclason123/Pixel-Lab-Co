@@ -2,7 +2,10 @@
   margin: 0;
   padding: 0;
 }
-
+a {
+  font-size: 1em;
+  text-decoration: none;
+}
 img {
   max-width: 100%;
 }
@@ -160,7 +163,9 @@ section {
   .ctaIsland {
     top: 76%;
     background: transparent;
-    width: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
   }
   .islandCTA {
     background: #fff;
