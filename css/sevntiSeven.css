@@ -1,0 +1,48 @@
+.sevntiSeven .copy {
+  background: transparent;
+  width: 100%;
+  height: 100%;
+}
+.sevntiSeven .copy h1 {
+  position: absolute;
+  right: 41.5%;
+  bottom: 9%;
+  font-size: 8.8em;
+}
+
+.sevntiSeven .copy p {
+  position: absolute;
+  width: 10em;
+  text-align: center;
+  top: 89%;
+  right: 37.6%;
+}
+
+.sevntiSeven .more {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  width: 10em;
+  text-align: center;
+  top: 100%;
+  right: 37.6%;
+}
+
+@media (max-width: 640px) {
+  .sevntiSeven {
+    margin-top: 16em;
+  }
+  .sevntiSeven .copy h1 {
+    position: absolute;
+    right: 26.5%;
+    bottom: 20.5%;
+    font-size: 7em;
+  }
+  .sevntiSeven .copy p {
+    position: absolute;
+    width: 9.2em;
+    text-align: center;
+    top: 77%;
+    right: 15%;
+  }
+}

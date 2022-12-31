@@ -25,14 +25,14 @@
   .branding .copy h1 {
     position: absolute;
     right: 21.5%;
-    bottom: 71.5%;
+    bottom: 65.5%;
     font-size: 14.8em;
   }
   .branding .copy p {
     position: absolute;
     width: 9.2em;
     text-align: center;
-    top: 36%;
+    top: 45%;
     right: 12%;
   }
 }
