@@ -1,0 +1,48 @@
+.moondust .copy {
+  background: transparent;
+  width: 100%;
+  height: 100%;
+}
+.moondust .copy h1 {
+  position: absolute;
+  right: 41.5%;
+  bottom: 11%;
+  font-size: 5.8em;
+}
+
+.moondust .copy p {
+  position: absolute;
+  width: 10em;
+  text-align: center;
+  top: 89%;
+  right: 37.6%;
+}
+
+.moondust .more {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  width: 10em;
+  text-align: center;
+  top: 100%;
+  right: 37.6%;
+}
+
+@media (max-width: 640px) {
+  .moondust {
+    margin-top: 16em;
+  }
+  .moondust .copy h1 {
+    position: absolute;
+    right: 27.5%;
+    bottom: 21.5%;
+    font-size: 5em;
+  }
+  .moondust .copy p {
+    position: absolute;
+    width: 9.2em;
+    text-align: center;
+    top: 78%;
+    right: 16%;
+  }
+}
